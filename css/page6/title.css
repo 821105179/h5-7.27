@@ -1,0 +1,25 @@
+#title{
+    width: 100%;
+    height: 35px;
+
+    display: flex;
+    justify-content: space-between;
+
+}
+.title-left{
+    height: 35px;
+    width: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.title-center{
+    height: 35px;
+    flex: 1;
+}
+.title-photo{
+    height: 60%;
+    width: 60%;
+    background-position: center;
+    background-size: cover;
+}

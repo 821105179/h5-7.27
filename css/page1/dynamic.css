@@ -1,0 +1,104 @@
+#dynamic {
+    width: 100%;
+    flex: 1;
+    background-color: white;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    overflow: scroll;
+
+}
+
+.dynamic{
+    height: 50px;
+    width: 96%;
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row;
+    border-bottom: #EBEBEB 1px solid;
+
+}
+.dynamic-left{
+    height: 50px;
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.dynamic-left-img{
+    height: 40px;
+    width: 40px;
+    background-size:cover;
+    background-position: center;
+}
+.dynamic-center{
+    height: 40px;
+    flex: 1;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: flex-start;
+    margin-left: 5px;
+}
+.dynamic-center-top{
+    height: 25px;
+    width: 100%;
+    font-size: 14px;
+
+    font-weight: 530;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+    overflow: hidden;
+
+}
+.text {
+    height: 15px;
+    width: 100%;
+    font-size: 12px;
+    color: #6e746b;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+    overflow: hidden;
+
+}
+.voice{
+    height: 15px;
+    width: 100%;
+    font-size: 12px;
+    color: crimson;
+
+}
+
+.dynamic-right{
+    height: 40px;
+    width: 50px;
+    display: flex;
+    flex-flow: column;
+
+}
+.time{
+    height: 20px;
+    width: 100%;
+    font-size: 10px;
+    font-weight: 400;
+    color: #6e746b;
+    text-align: right;
+}
+.audio{
+    height: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+
+}
+.audio-img{
+    height: 20px;
+    width: 20px;
+    background-image: url(../../img/page1/免打扰.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}

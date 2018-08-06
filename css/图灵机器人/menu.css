@@ -1,0 +1,26 @@
+#menu{
+    height: 35px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    border-top: gainsboro;
+
+}
+.menu-photo{
+    height: 35px;
+    width: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.photo{
+    height: 80%;
+    width: 80%;
+    background-position: center;
+    background-size: contain;
+}
+.menu-text{
+    height: 35px;
+    flex: 1;
+}

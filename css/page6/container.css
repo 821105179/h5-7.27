@@ -1,0 +1,135 @@
+#container{
+
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-flow: column wrap;
+}
+.container{
+    width: 100%;
+    flex: 1;
+    display: flex;
+    flex-flow: column;
+
+}
+.container-top{
+    width: 100%;
+    min-height: 260px;
+    background-image: url(../../img/page6/背景.png);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-flow: column;
+    position: relative;
+    z-index: 2;
+}
+.touxiang-big{
+    height: 50px;
+    width: 50px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: -25px;
+    right: 10px;
+    z-index: 3;
+}
+.touxiang{
+     height: 95%;
+     width: 95%;
+    background-size: cover;
+    background-position: center;
+ }
+.myname{
+    height: 25px;
+    width: 50px;
+    position: absolute;
+    bottom: 0px;
+    right: 60px;
+    z-index: 3;
+    color: white;
+    text-align: center;
+    font-size: 14px;
+}
+
+.container-bottom{
+    width: 100%;
+    flex: 1;
+    margin-top: 25px;
+}
+.dynamic{
+    max-height: 1200px;
+    width: 100%;
+    border-bottom:1px solid #EBEBEB ;
+    display: flex;
+    flex-flow: row nowrap;
+}
+.dynamic-left{
+    height: 45px;
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.dynamic-left-photo{
+    height: 80%;
+    width: 80%;
+    background-position: center;
+    background-size: cover;
+}
+.dynamic-right{
+    max-height: 1200px;
+    flex: 1;
+    display: flex;
+    flex-flow: column;
+    margin-right: 10px;
+}
+.dynamic-right-top{
+    height:20px ;
+    width: 100%;
+    color: cornflowerblue;
+    font-size: 14px;
+    font-weight:600;
+}
+.dynamic-right-center{
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+}
+.dynamic-right-center-text{
+    width: 100%;
+    max-height:500px ;
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+.dynamic-right-center-photo{
+    width: 80px;
+    height:100px ;
+    background-position:center;
+    background-size: cover;
+}
+.dynamic-right-bottom{
+    height:30px ;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.dynamic-right-bottom-time{
+    height: 10px;
+    flex: 1;
+    color:grey;
+    font-size: 10px;
+}
+.dynamic-right-bottom-more{
+    height: 12px;
+    width: 20px;
+    background-size: cover;
+    background-position: center;
+}
+
+
+
